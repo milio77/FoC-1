@@ -9,6 +9,10 @@
 
 </head>
 <body>
+
+
+
+
 <center>
 <section>
 <h2>Project 1: Not Gate</h2>
@@ -29,7 +33,19 @@
 </section>
 </center>
 
+<script>
 
+
+
+function inOrder(root) { 
+   root.left && inOrder(root.left) 
+   console.log(root.val) 
+   root.right && inOrder(root.right) 
+} 
+
+<!-- Call the inorder function. Remember, we're referring above gif's BST for reference--> 
+node.inOrder(node) // 13, 15, 18, 20, 25, 30
+</script>
 
 <footer>
   <p>@ Powered by UB</p>
@@ -37,3 +53,8 @@
 
 </body>
 </html>
+
+
+
+
+
