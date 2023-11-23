@@ -8,7 +8,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #6930C3;
+  background-color: #ADD8E6;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -20,7 +20,7 @@ nav {
   float: left;
   width: 15%;
   /*height: 300px;  only for demonstration, should be removed */
-  background: #FFFFFF;
+  background: #ADD8E6;
  padding: 20px;
 }
 
